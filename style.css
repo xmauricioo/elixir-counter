@@ -1,0 +1,29 @@
+/* css reset */
+* {margin:0;padding:0;list-style:none;vertical-align:baseline;}
+*, *:before, *:after {box-sizing: inherit;}
+a {color: black; cursor: pointer;}
+
+.container__main {
+  display: flex;
+  width: 40vw;
+  height: auto;
+  margin: 50px auto;
+  flex-direction: column;
+}
+
+.container__deck {
+  padding-top: 20px;
+}
+
+.elixir__counter, .deck__line__1,
+.deck__line__2 {
+  display: flex;
+  border: 1px solid black;
+  height: 60px;
+  width: 500px;
+}
+
+img {
+  width:40px;
+  margin: 0 3px;
+}
